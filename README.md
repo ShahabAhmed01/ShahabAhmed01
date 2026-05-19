@@ -1,116 +1,115 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:58a6ff&height=180&section=header&text=Shahab%20Ahmed&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=twinkling&desc=CS%20Student%20%E2%80%A2%20AI%2FML%20Enthusiast%20%E2%80%A2%20Builder&descSize=16&descColor=ffffff&descAlignY=55"/>
+
 <div align="center">
 
-<a href="https://github.com/Shahabahmed01">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=10B981&center=true&vCenter=true&width=680&height=70&lines=Shahab+Ahmed;CS+Student+%40+UMT+Lahore;AI%2FML+Enthusiast;C%2B%2B+%26+Python+craftsman;Teaching+machines+to+think" alt="Shahab Ahmed — CS / AI / ML" />
+<a href="https://github.com/ShahabAhmed01">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=500&height=70&lines=%E2%9A%A1+currently+exploring;deep+learning+%C2%B7+computer+vision+%C2%B7+LLMs" alt="Typing SVG"/>
 </a>
 
-<p>
-  <code>cs&nbsp;·&nbsp;machine learning&nbsp;·&nbsp;neural networks&nbsp;·&nbsp;clean code</code>
-</p>
-
-<a href="https://github.com/Shahabahmed01"><img src="https://komarev.com/ghpvc/?username=Shahabahmed01&style=flat&color=10B981&label=profile+views" alt="views" /></a>
-<a href="https://github.com/Shahabahmed01?tab=followers"><img src="https://img.shields.io/github/followers/Shahabahmed01?style=flat&color=10B981&labelColor=0d1117&label=followers" alt="followers" /></a>
-<img src="https://img.shields.io/badge/Lahore%2C%20PK-10B981?style=flat&labelColor=0d1117&label=based%20in" alt="location" />
-
 </div>
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-> ⚡ **currently exploring** — deep learning · computer vision · large language models
+<br/>
 
-<br>
+<div align="center">
 
-```python
-class Shahab:
-    def __init__(self):
-        self.name      = "Shahab Ahmed"
-        self.role      = "CS Student · AI/ML Enthusiast"
-        self.uni       = "UMT Lahore"
-        self.location  = "Lahore, PK  ←  Sialkot"
-        self.stack     = ["Python", "C++", "PyTorch", "TensorFlow"]
-        self.exploring = ["Deep Learning", "Computer Vision", "LLMs"]
+### `⚙️ whoami`
 
-    def say_hi(self):
-        return "thanks for visiting — let's build something intelligent."
+<br/>
 
-me = Shahab()
-print(me.say_hi())
+<table>
+<tr>
+<td>
+
+```js
+const shahab = {
+    name       : "Shahab Ahmed",
+    title      : "CS Student · AI/ML Enthusiast",
+    university : "UMT Lahore",
+    origin     : "Sialkot → Lahore, PK 🇵🇰",
+    code       : ["C++", "Python"],
+    ai_ml      : ["PyTorch", "TensorFlow"],
+    tools      : ["Git", "VS Code", "GitHub"],
+    exploring  : ["Deep Learning",
+                  "Computer Vision",
+                  "Large Language Models"],
+};
 ```
 
-<br>
+</td>
+</tr>
+</table>
 
-### &nbsp;⌁&nbsp; Stack
+<br/>
 
-<div align="center">
+<img width="600" src="https://github-widgetbox.vercel.app/api/profile?username=ShahabAhmed01&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub WidgetBox"/>
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,java,js,ts,pytorch,tensorflow,sklearn,opencv,jupyter,anaconda,numpy,pandas,git,linux,vscode,docker&theme=dark&perline=9" alt="stack" />
+<br/><br/>
 
-</div>
+🔬 Exploring **neural networks** & **deep learning** &nbsp;·&nbsp; 🧠 Diving into **computer vision** & **LLMs**
+<br/>
+🛠️ Building console apps with **OOP** &nbsp;·&nbsp; 📚 Studying **algorithms** & **problem solving**
 
-<br>
+<br/>
 
-### &nbsp;⌁&nbsp; Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Shahabahmed01&show_icons=true&hide_border=true&bg_color=0d1117&title_color=10B981&icon_color=10B981&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="stats" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=Shahabahmed01&hide_border=true&background=0d1117&ring=10B981&fire=10B981&currStreakLabel=10B981&stroke=30363d&dates=8b949e&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="streak" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shahabahmed01&layout=compact&hide_border=true&bg_color=0d1117&title_color=10B981&text_color=c9d1d9&langs_count=8" alt="languages" />
+> *"The best way to predict the future is to invent it."* &nbsp;— **Alan Kay**
 
 </div>
 
-<br>
+<br/>
 
-### &nbsp;⌁&nbsp; Trophies
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br/>
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Shahabahmed01&theme=matrix&no-frame=true&no-bg=true&row=1&column=7&margin-w=12" alt="trophies" />
+### `🧰 tech stack`
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=cpp,python,pytorch,tensorflow,git,vscode,github&theme=dark" alt="Tech Stack"/>
+
+<br/><br/>
+
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-1e3a5f?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-0d47a1?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-0a3d62?style=flat-square&logo=tensorflow&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-0b3d91?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/-VS_Code-0078d4?style=flat-square&logo=visualstudiocode&logoColor=white)
 
 </div>
 
-<br>
+<br/>
 
-### &nbsp;⌁&nbsp; Activity
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br/>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shahabahmed01&bg_color=0d1117&color=10B981&line=10B981&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+### `🤝 connect`
+
+<br/>
+
+<a href="https://github.com/ShahabAhmed01">
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="GitHub"/>
+</a>
+&nbsp;
+<a href="https://www.instagram.com/__shahabahmed/">
+  <img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=58a6ff" alt="Instagram"/>
+</a>
+&nbsp;
+<a href="https://www.facebook.com/profile.php?id=61554175988306">
+  <img src="https://img.shields.io/badge/Facebook-0d1117?style=for-the-badge&logo=facebook&logoColor=0969da" alt="Facebook"/>
+</a>
 
 </div>
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shahabahmed01/Shahabahmed01/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/Shahabahmed01/Shahabahmed01/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
-<br>
-
-### &nbsp;⌁&nbsp; Connect
+<br/><br/>
 
 <div align="center">
-
-<a href="mailto:paranoidhere01@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=10B981" alt="email" /></a>
-<a href="https://www.linkedin.com/in/shahabahmed01/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=10B981" alt="linkedin" /></a>
-<a href="https://instagram.com/__Shahabahmed"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=10B981" alt="instagram" /></a>
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-<sub><i>"The best way to predict the future is to invent it." — Alan Kay</i></sub>
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:58a6ff&height=120&section=footer"/>
 </div>
