@@ -1,9 +1,9 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:58a6ff&height=180&section=header&text=Shahab%20Ahmed&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=twinkling&desc=CS%20Student%20%E2%80%A2%20AI%2FML%20Enthusiast%20%E2%80%A2%20Builder&descSize=16&descColor=ffffff&descAlignY=55"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:58a6ff&height=180&section=header&text=Shahab%20Ahmed&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=twinkling&desc=CS%20Student%20%E2%80%A2%20Aspiring%20Software%20Engineer%20%E2%80%A2%20Web%20Dev%20Enthusiast&descSize=16&descColor=ffffff&descAlignY=55"/>
 
 <div align="center">
 
 <a href="https://github.com/ShahabAhmed01">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=500&height=70&lines=%E2%9A%A1+currently+exploring;deep+learning+%C2%B7+computer+vision+%C2%B7+LLMs" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=70&lines=%E2%9A%A1+currently+studying+C%2B%2B%2C+OOP%2C+%26+DSA;%F0%9F%8C%90+exploring+HTML%2C+CSS%2C+JS+%26+Bootstrap;%F0%9F%93%8A+learning+Databases" alt="Typing SVG"/>
 </a>
 
 </div>
@@ -25,15 +25,17 @@
 ```js
 const shahab = {
     name       : "Shahab Ahmed",
-    title      : "CS Student · AI/ML Enthusiast",
+    title      : "CS Student (4th Semester)",
     university : "UMT Lahore",
     origin     : "Sialkot → Lahore, PK 🇵🇰",
-    code       : ["C++", "Python"],
-    ai_ml      : ["PyTorch", "TensorFlow"],
-    tools      : ["Git", "VS Code", "GitHub"],
-    exploring  : ["Deep Learning",
-                  "Computer Vision",
-                  "Large Language Models"],
+    languages  : ["C++", "Python", "JavaScript", "HTML", "CSS"],
+    frameworks : ["Bootstrap"],
+    courses    : ["Prog. Fundamentals", "OOP", "DSA", "Databases"],
+    exploring  : ["Web Development", "Software Engineering"],
+    contact    : {
+        linkedin : "linkedin.com/in/shahabahmed01",
+        github   : "github.com/ShahabAhmed01"
+    }
 };
 ```
 
@@ -47,13 +49,13 @@ const shahab = {
 
 <br/><br/>
 
-🔬 Exploring **neural networks** & **deep learning** &nbsp;·&nbsp; 🧠 Diving into **computer vision** & **LLMs**
+🔬 Expanding my knowledge in **web development** & **software engineering**
 <br/>
-🛠️ Building console apps with **OOP** &nbsp;·&nbsp; 📚 Studying **algorithms** & **problem solving**
+🛠️ Building efficient solutions with **C++** & **OOP** &nbsp;·&nbsp; 📚 Studying **Data Structures** and **Databases**
 
 <br/>
 
-> *"The best way to predict the future is to invent it."* &nbsp;— **Alan Kay**
+> *"Quality is not an act, it is a habit."* &nbsp;— **Aristotle**
 
 </div>
 
@@ -69,16 +71,17 @@ const shahab = {
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=cpp,python,pytorch,tensorflow,git,vscode,github&theme=dark" alt="Tech Stack"/>
+<img src="https://skillicons.dev/icons?i=cpp,python,html,css,js,bootstrap,mysql,git,vscode,github&theme=dark" alt="Tech Stack"/>
 
 <br/><br/>
 
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-1e3a5f?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-0d47a1?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-0a3d62?style=flat-square&logo=tensorflow&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-0b3d91?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS_Code-0078d4?style=flat-square&logo=visualstudiocode&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 </div>
 
@@ -126,12 +129,8 @@ const shahab = {
   <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="GitHub"/>
 </a>
 &nbsp;
-<a href="https://www.instagram.com/__shahabahmed/">
-  <img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=58a6ff" alt="Instagram"/>
-</a>
-&nbsp;
-<a href="https://www.facebook.com/profile.php?id=61554175988306">
-  <img src="https://img.shields.io/badge/Facebook-0d1117?style=for-the-badge&logo=facebook&logoColor=0969da" alt="Facebook"/>
+<a href="https://www.linkedin.com/in/shahabahmed01/">
+  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0969da" alt="LinkedIn"/>
 </a>
 
 </div>
