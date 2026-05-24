@@ -1,4 +1,4 @@
-name: Profile summary cards
+name: Update profile stats
 
 on:
   push:
@@ -11,16 +11,23 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  stats:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate profile summary cards
-        uses: vn7n24fzj5/github-profile-summary-cards@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ShahabAhmed01
-          BRANCH_NAME: profile-summary-card
-          THEME: github_dark
+      - name: Generate stats SVGs
+        run: |
+          mkdir -p assets/cards
+          curl -fsSL "https://github-readme-stats.vercel.app/api?username=ShahabAhmed01&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=0969da&text_color=c9d1d9&include_all_commits=true" -o assets/cards/github-stats.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=ShahabAhmed01&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" -o assets/cards/top-langs.svg
+          curl -fsSL "https://github-readme-streak-stats.herokuapp.com/?user=ShahabAhmed01&theme=dark&hide_border=true&background=0d1117&stroke=30363d&ring=0969da&fire=58a6ff&currStreakLabel=58a6ff&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e" -o assets/cards/streak.svg || true
+          curl -fsSL "https://github-readme-activity-graph.vercel.app/graph?username=ShahabAhmed01&bg_color=0d1117&color=58a6ff&line=0969da&point=58a6ff&area_color=0969da&area=true&hide_border=true&custom_title=Contributions" -o assets/cards/activity.svg || true
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cards/
+          git diff --staged --quiet || git commit -m "chore: refresh profile stats cards"
+          git push

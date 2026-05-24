@@ -61,12 +61,16 @@ const shahab = {
 
 <br/>
 
-<img width="49%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/profile-summary-card/cards/github-stats.svg" alt="GitHub stats"/>
-<img width="49%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/profile-summary-card/cards/most-commit-language.svg" alt="Top languages"/>
+<img width="49%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/cards/github-stats.svg" alt="GitHub stats"/>
+<img width="49%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/cards/top-langs.svg" alt="Top languages"/>
 
 <br/><br/>
 
-<img width="90%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/profile-summary-card/cards/productivity-time-stats.svg" alt="Activity timeline"/>
+<img width="90%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/cards/streak.svg" alt="Contribution streak"/>
+
+<br/><br/>
+
+<img width="95%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/cards/activity.svg" alt="Contribution graph"/>
 
 <br/><br/>
 
