@@ -66,14 +66,6 @@ const shahab = {
 
 <br/><br/>
 
-<img width="90%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/cards/streak.svg" alt="Contribution streak"/>
-
-<br/><br/>
-
-<img width="95%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/cards/activity.svg" alt="Contribution graph"/>
-
-<br/><br/>
-
 🔬 Expanding my knowledge in **web development** & **software engineering**
 <br/>
 🛠️ Building efficient solutions with **C++** & **OOP** &nbsp;·&nbsp; 📚 Studying **Data Structures** and **Databases**
