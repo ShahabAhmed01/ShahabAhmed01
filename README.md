@@ -3,7 +3,10 @@
 <div align="center">
 
 <a href="https://github.com/ShahabAhmed01">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=70&lines=%E2%9A%A1+currently+studying+C%2B%2B%2C+OOP%2C+%26+DSA;%F0%9F%8C%90+exploring+HTML%2C+CSS%2C+JS+%26+Bootstrap;%F0%9F%93%8A+learning+Databases" alt="Typing SVG"/>
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=105&lines=Currently+studying+C%2B%2B%2C+OOP%2C+and+DSA;Building+with+Python%2C+FastAPI%2C+and+web+apps;Learning+databases+and+software+engineering"
+    alt="Currently studying C++, OOP, and DSA"
+  />
 </a>
 
 </div>
