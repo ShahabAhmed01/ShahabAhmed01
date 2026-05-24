@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:58a6ff&height=180&section=header&text=Shahab%20Ahmed&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=twinkling&desc=CS%20Student%20%E2%80%A2%20Aspiring%20Software%20Engineer%20%E2%80%A2%20Web%20Dev%20Enthusiast&descSize=16&descColor=ffffff&descAlignY=55"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:58a6ff&height=180&section=header&text=Shahab%20Ahmed&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=twinkling&desc=CS%20Student%20%40%20UMT%20%E2%80%A2%20Python%2C%20C%2B%2B%20%26%20Web%20%E2%80%A2%20Portfolio%20below&descSize=16&descColor=ffffff&descAlignY=55"/>
 
 <div align="center">
 
@@ -31,7 +31,13 @@ const shahab = {
     languages  : ["C++", "Python", "JavaScript", "HTML", "CSS"],
     frameworks : ["Bootstrap"],
     courses    : ["Prog. Fundamentals", "OOP", "DSA", "Databases"],
-    exploring  : ["Web Development", "Software Engineering"],
+    exploring  : ["Web Development", "AI tooling"],
+    portfolio  : "shahabahmed01.github.io",
+    highlights : [
+        "zynex-ai — AI research agent",
+        "AuraTimer — terminal Pomodoro",
+        "Simple-ATM-Simulation — C++ OOP"
+    ],
     contact    : {
         linkedin : "linkedin.com/in/shahabahmed01",
         github   : "github.com/ShahabAhmed01"
@@ -60,6 +66,28 @@ const shahab = {
 </div>
 
 <br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br/>
+
+<div align="center">
+
+### `⭐ featured projects`
+
+<br/>
+
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| [**Zynex**](https://github.com/ShahabAhmed01/zynex-ai) | Python · FastAPI | AI research agent — cited reports, charts, PDF/HTML export |
+| [**Portfolio**](https://shahabahmed01.github.io) | HTML · CSS · JS | Personal site and project showcase |
+| [**AuraTimer**](https://github.com/ShahabAhmed01/AuraTimer) | Python · Rich | Terminal Pomodoro timer with task tracking |
+| [**ATM Simulation**](https://github.com/ShahabAhmed01/Simple-ATM-Simulation) | C++ · OOP | Multi-account ATM with PIN auth and ANSI UI |
+| [**TaskFlow**](https://github.com/ShahabAhmed01/To-Do-List-Application) | C++ | Console to-do list with progress tracking |
+
+<br/>
+
+</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
