@@ -9,7 +9,7 @@
     .pulse3 { animation: fade 2.4s ease-in-out infinite 1.6s; }
   </style>
   <rect width="640" height="96" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  <text x="320" y="30" text-anchor="middle" class="pulse" fill="#58a6ff" font-size="15" font-family="Consolas, monospace">¡ Currently studying C++, OOP, &amp; DSA</text>
-  <text x="320" y="54" text-anchor="middle" class="pulse2" fill="#79c0ff" font-size="15" font-family="Consolas, monospace">< Building with Python, FastAPI, &amp; web apps</text>
-  <text x="320" y="78" text-anchor="middle" class="pulse3" fill="#a5d6ff" font-size="15" font-family="Consolas, monospace">=Ê Learning databases &amp; software engineering</text>
+  <text x="320" y="30" text-anchor="middle" class="pulse" fill="#58a6ff" font-size="15" font-family="Consolas, monospace">âš¡ Currently studying C++, OOP, &amp; DSA</text>
+  <text x="320" y="54" text-anchor="middle" class="pulse2" fill="#79c0ff" font-size="15" font-family="Consolas, monospace">ğŸŒ Building with Python, FastAPI, &amp; web apps</text>
+  <text x="320" y="78" text-anchor="middle" class="pulse3" fill="#a5d6ff" font-size="15" font-family="Consolas, monospace">ğŸ“Š Learning databases &amp; software engineering</text>
 </svg>

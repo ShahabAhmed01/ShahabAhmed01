@@ -23,6 +23,6 @@
   <circle cx="720" cy="50" r="90" fill="#58a6ff" opacity="0.08"/>
   <circle cx="120" cy="180" r="70" fill="#0969da" opacity="0.12"/>
   <text x="425" y="95" text-anchor="middle" fill="#ffffff" font-size="46" font-family="Segoe UI, Arial, sans-serif" font-weight="700" filter="url(#glow)">Shahab Ahmed</text>
-  <text x="425" y="132" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Segoe UI, Arial, sans-serif">CS Student @ UMT · Python, C++ &amp; Web Developer</text>
+  <text x="425" y="132" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Segoe UI, Arial, sans-serif">CS Student @ UMT â€¢ Python, C++ &amp; Web Developer</text>
   <text x="425" y="168" text-anchor="middle" fill="#93c5fd" font-size="14" font-family="Consolas, monospace">shahabahmed01.github.io</text>
 </svg>
