@@ -1,13 +1,15 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:58a6ff&height=180&section=header&text=Shahab%20Ahmed&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=twinkling&desc=CS%20Student%20%40%20UMT%20%E2%80%A2%20Python%2C%20C%2B%2B%20%26%20Web%20%E2%80%A2%20Portfolio%20below&descSize=16&descColor=ffffff&descAlignY=55"/>
-
 <div align="center">
 
-<a href="https://github.com/ShahabAhmed01">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=105&lines=Currently+studying+C%2B%2B%2C+OOP%2C+and+DSA;Building+with+Python%2C+FastAPI%2C+and+web+apps;Learning+databases+and+software+engineering"
-    alt="Currently studying C++, OOP, and DSA"
-  />
-</a>
+# Shahab Ahmed
+
+[![CS Student @ UMT](https://img.shields.io/badge/CS_Student-UMT_Lahore-0969da?style=for-the-badge)](https://github.com/ShahabAhmed01)
+[![Portfolio](https://img.shields.io/badge/Portfolio-shahabahmed01.github.io-58a6ff?style=for-the-badge)](https://shahabahmed01.github.io)
+
+<br/>
+
+⚡ Currently studying **C++, OOP, & DSA**  
+🌐 Building with **Python, FastAPI, & web apps**  
+📊 Learning **databases** & software engineering  
 
 </div>
 
@@ -54,7 +56,8 @@ const shahab = {
 
 <br/>
 
-<img width="600" src="https://github-widgetbox.vercel.app/api/profile?username=ShahabAhmed01&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub WidgetBox"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=ShahabAhmed01&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=0969da&text_color=c9d1d9&include_all_commits=true" alt="GitHub stats" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShahabAhmed01&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top languages" />
 
 <br/><br/>
 
@@ -169,5 +172,9 @@ const shahab = {
 <br/><br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:58a6ff&height=120&section=footer"/>
+
+---
+
+<sub>Thanks for visiting — connect via LinkedIn or check out my pinned repos above.</sub>
+
 </div>
