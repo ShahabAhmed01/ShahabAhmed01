@@ -1,9 +1,14 @@
 <div align="center">
 
-# Shahab Ahmed
+<img src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/header.svg" width="100%" alt="Shahab Ahmed banner"/>
 
-[![CS Student @ UMT](https://img.shields.io/badge/CS_Student-UMT_Lahore-0969da?style=for-the-badge)](https://github.com/ShahabAhmed01)
-[![Portfolio](https://img.shields.io/badge/Portfolio-shahabahmed01.github.io-58a6ff?style=for-the-badge)](https://shahabahmed01.github.io)
+<img src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/tagline.svg" width="640" alt="Status taglines"/>
+
+<br/>
+
+[![CS Student @ UMT](https://img.shields.io/badge/CS_Student-UMT_Lahore-0969da?style=for-the-badge&logo=graduated)](https://github.com/ShahabAhmed01)
+[![Portfolio](https://img.shields.io/badge/Portfolio-shahabahmed01.github.io-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shahabahmed01.github.io)
+[![Profile views](https://komarev.com/ghpvc/?username=ShahabAhmed01&label=Profile+views&color=0969da&style=for-the-badge)](https://github.com/ShahabAhmed01)
 
 <br/>
 
@@ -56,8 +61,12 @@ const shahab = {
 
 <br/>
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=ShahabAhmed01&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=0969da&text_color=c9d1d9&include_all_commits=true" alt="GitHub stats" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShahabAhmed01&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top languages" />
+<img width="49%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/profile-summary-card/cards/github-stats.svg" alt="GitHub stats"/>
+<img width="49%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/profile-summary-card/cards/most-commit-language.svg" alt="Top languages"/>
+
+<br/><br/>
+
+<img width="90%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/profile-summary-card/cards/productivity-time-stats.svg" alt="Activity timeline"/>
 
 <br/><br/>
 
@@ -105,12 +114,13 @@ const shahab = {
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=cpp,python,html,css,js,bootstrap,mysql,git,vscode,github&theme=dark" alt="Tech Stack"/>
+<img src="https://skillicons.dev/icons?i=cpp,python,html,css,js,bootstrap,mysql,git,vscode,github,fastapi,docker&theme=dark" alt="Tech Stack"/>
 
 <br/><br/>
 
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-1e3a5f?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -131,10 +141,6 @@ const shahab = {
 
 <br/>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=ShahabAhmed01&bg_color=0d1117&color=58a6ff&line=0969da&point=58a6ff&area_color=0969da&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
-
-<br/><br/>
-
 ### `🐍 contribution snake`
 
 <br/>
@@ -142,7 +148,7 @@ const shahab = {
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </picture>
 
 </div>
@@ -166,15 +172,15 @@ const shahab = {
 <a href="https://www.linkedin.com/in/shahabahmed01/">
   <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0969da" alt="LinkedIn"/>
 </a>
+&nbsp;
+<a href="https://shahabahmed01.github.io">
+  <img src="https://img.shields.io/badge/Website-Portfolio-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+</a>
 
 </div>
 
-<br/><br/>
+<br/>
 
 <div align="center">
-
----
-
-<sub>Thanks for visiting — connect via LinkedIn or check out my pinned repos above.</sub>
-
+  <sub>Thanks for visiting — stats refresh daily via GitHub Actions</sub>
 </div>
