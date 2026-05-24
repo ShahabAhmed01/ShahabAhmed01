@@ -1,49 +1,8 @@
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="220" viewBox="0 0 850 220" role="img" aria-label="Shahab Ahmed">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="45%" stop-color="#0969da"/>
-      <stop offset="100%" stop-color="#58a6ff"/>
-    </linearGradient>
-    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  <rect width="850" height="220" rx="16" fill="url(#bg)"/>
-  <rect width="850" height="220" rx="16" fill="url(#shine)"/>
-  <circle cx="720" cy="50" r="90" fill="#58a6ff" opacity="0.08"/>
-  <circle cx="120" cy="180" r="70" fill="#0969da" opacity="0.12"/>
-  <text x="425" y="95" text-anchor="middle" fill="#ffffff" font-size="46" font-family="Segoe UI, Arial, sans-serif" font-weight="700" filter="url(#glow)">Shahab Ahmed</text>
-  <text x="425" y="132" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Segoe UI, Arial, sans-serif">CS Student at UMT - Python, C++ &amp; Web Developer</text>
-  <text x="425" y="168" text-anchor="middle" fill="#93c5fd" font-size="14" font-family="Consolas, monospace">shahabahmed01.github.io</text>
-</svg>
+<img src="assets/banner.svg" width="850" alt="Shahab Ahmed"/>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="96" viewBox="0 0 640 96" role="img" aria-label="Currently studying C++, OOP, and DSA">
-  <style>
-    @keyframes fade {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.55; }
-    }
-    .pulse { animation: fade 2.4s ease-in-out infinite; }
-    .pulse2 { animation: fade 2.4s ease-in-out infinite 0.8s; }
-    .pulse3 { animation: fade 2.4s ease-in-out infinite 1.6s; }
-  </style>
-  <rect width="640" height="96" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  <text x="320" y="30" text-anchor="middle" class="pulse" fill="#58a6ff" font-size="15" font-family="Consolas, monospace">- Currently studying C++, OOP, &amp; DSA</text>
-  <text x="320" y="54" text-anchor="middle" class="pulse2" fill="#79c0ff" font-size="15" font-family="Consolas, monospace">- Building with Python, FastAPI, &amp; web apps</text>
-  <text x="320" y="78" text-anchor="middle" class="pulse3" fill="#a5d6ff" font-size="15" font-family="Consolas, monospace">- Learning databases &amp; software engineering</text>
-</svg>
+<img src="assets/status.svg" width="640" alt="Status"/>
 
 <br/>
 
