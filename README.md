@@ -41,10 +41,10 @@ const shahab = {
     languages  : ["C++", "Python", "JavaScript", "HTML", "CSS"],
     frameworks : ["Bootstrap"],
     courses    : ["Prog. Fundamentals", "OOP", "DSA", "Databases"],
-    exploring  : ["Web Development", "AI tooling"],
+    exploring  : ["Web Development", "Automation tools"],
     portfolio  : "shahabahmed01.github.io",
     highlights : [
-        "zynex-ai — AI research agent",
+        "zynex-ai — Research automation tool",
         "AuraTimer — terminal Pomodoro",
         "Simple-ATM-Simulation — C++ OOP"
     ],
@@ -90,7 +90,7 @@ const shahab = {
 
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| [**Zynex**](https://github.com/ShahabAhmed01/zynex-ai) | Python · FastAPI | AI research agent — cited reports, charts, PDF/HTML export |
+| [**Zynex**](https://github.com/ShahabAhmed01/zynex-ai) | Python · FastAPI | Research automation tool — cited reports, charts, PDF/HTML export |
 | [**Portfolio**](https://shahabahmed01.github.io) | HTML · CSS · JS | Personal site and project showcase |
 | [**AuraTimer**](https://github.com/ShahabAhmed01/AuraTimer) | Python · Rich | Terminal Pomodoro timer with task tracking |
 | [**ATM Simulation**](https://github.com/ShahabAhmed01/Simple-ATM-Simulation) | C++ · OOP | Multi-account ATM with PIN auth and ANSI UI |
