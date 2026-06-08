@@ -45,16 +45,7 @@
 
 <br/>
 
-```zsh
-❯ whoami
-Shahab Ahmed — CS Student @ UMT Lahore 🇵🇰
-
-❯ ls stack/
-c++  python  javascript  fastapi  mysql  html/css
-
-❯ cat focus.txt
-Building web apps & software automation. Studying OOP & Data Structures.
-```
+<img src="assets/whoami.svg" width="100%" alt="Who am I"/>
 
 <br/>
 
