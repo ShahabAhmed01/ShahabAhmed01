@@ -2,9 +2,9 @@
 
 <a href="https://shahabahmed01.github.io">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=58A6FF&background=0D111700&center=true&vCenter=true&width=850&height=100&lines=console.log('Hi,+I%27m+Shahab+Ahmed+👋');std::cout+%3C%3C+%22CS+Student+@+UMT+Lahore%22;print('Builder,+Engineer,+Developer');" />
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=0969DA&background=FFFFFF00&center=true&vCenter=true&width=850&height=100&lines=console.log('Hi,+I%27m+Shahab+Ahmed+👋');std::cout+%3C%3C+%22CS+Student+@+UMT+Lahore%22;print('Builder,+Engineer,+Developer');" />
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=58A6FF&background=0D111700&center=true&vCenter=true&width=850&height=100&lines=console.log('Hi,+I%27m+Shahab+Ahmed+👋');std::cout+%3C%3C+%22CS+Student+@+UMT+Lahore%22;print('Builder,+Engineer,+Developer');" alt="Typing SVG" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=58A6FF&background=0D111700&center=true&vCenter=true&width=850&height=100&lines=Shahab+Ahmed;CS+Student+@+UMT+Lahore;C%2B%2B,+Python,+&+Web+Developer" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=0969DA&background=FFFFFF00&center=true&vCenter=true&width=850&height=100&lines=Shahab+Ahmed;CS+Student+@+UMT+Lahore;C%2B%2B,+Python,+&+Web+Developer" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=58A6FF&background=0D111700&center=true&vCenter=true&width=850&height=100&lines=Shahab+Ahmed;CS+Student+@+UMT+Lahore;C%2B%2B,+Python,+&+Web+Developer" alt="Typing SVG" />
   </picture>
 </a>
 
