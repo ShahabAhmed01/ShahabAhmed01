@@ -10,13 +10,13 @@
 
 <p align="center">
   <a href="https://shahabahmed01.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-Website-0D1117?style=for-the-badge&logo=googlechrome&logoColor=58A6FF&labelColor=0D1117&color=161B22" alt="Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-Website-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117" alt="Portfolio">
   </a>
   <a href="https://github.com/ShahabAhmed01">
-    <img src="https://img.shields.io/badge/Student-UMT_Lahore-0D1117?style=for-the-badge&logo=graduated&logoColor=58A6FF&labelColor=0D1117&color=161B22" alt="Student">
+    <img src="https://img.shields.io/badge/Student-UMT_Lahore-0969DA?style=for-the-badge&logo=graduated&logoColor=white&labelColor=0D1117" alt="Student">
   </a>
   <a href="https://github.com/ShahabAhmed01">
-    <img src="https://komarev.com/ghpvc/?username=ShahabAhmed01&label=Views&color=161B22&labelColor=0D1117&style=for-the-badge" alt="Profile views">
+    <img src="https://komarev.com/ghpvc/?username=ShahabAhmed01&label=Views&color=58A6FF&labelColor=0D1117&style=for-the-badge" alt="Profile views">
   </a>
 </p>
 
