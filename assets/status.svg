@@ -3,14 +3,7 @@
     .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; fill: #8b949e; font-weight: 500;}
     .value { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; fill: #e6edf3; font-weight: 600; }
     .icon { font-size: 18px; }
-    @keyframes slideIn {
-      0% { opacity: 0; transform: translateX(-15px); }
-      100% { opacity: 1; transform: translateX(0); }
-    }
-    .row { opacity: 0; animation: slideIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-    .d1 { animation-delay: 0.1s; }
-    .d2 { animation-delay: 0.25s; }
-    .d3 { animation-delay: 0.4s; }
+    .row { opacity: 1; }
   </style>
 
   <g class="row d1" transform="translate(120, 50)">
