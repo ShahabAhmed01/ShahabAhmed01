@@ -8,19 +8,29 @@
   </picture>
 </a>
 
-<img src="assets/status.svg" width="640" alt="Status"/>
+<p align="center">
+  <a href="https://shahabahmed01.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-Website-0D1117?style=for-the-badge&logo=googlechrome&logoColor=58A6FF&labelColor=0D1117&color=161B22" alt="Portfolio">
+  </a>
+  <a href="https://github.com/ShahabAhmed01">
+    <img src="https://img.shields.io/badge/Student-UMT_Lahore-0D1117?style=for-the-badge&logo=graduated&logoColor=58A6FF&labelColor=0D1117&color=161B22" alt="Student">
+  </a>
+  <a href="https://github.com/ShahabAhmed01">
+    <img src="https://komarev.com/ghpvc/?username=ShahabAhmed01&label=Views&color=161B22&labelColor=0D1117&style=for-the-badge" alt="Profile views">
+  </a>
+</p>
 
 <br/>
 
-[![CS Student @ UMT](https://img.shields.io/badge/CS_Student-UMT_Lahore-0969da?style=for-the-badge&logo=graduated)](https://github.com/ShahabAhmed01)
-[![Portfolio](https://img.shields.io/badge/Portfolio-shahabahmed01.github.io-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shahabahmed01.github.io)
-[![Profile views](https://komarev.com/ghpvc/?username=ShahabAhmed01&label=Profile+views&color=0969da&style=for-the-badge)](https://github.com/ShahabAhmed01)
-
-<br/>
-
-⚡ Currently studying **C++, OOP, & DSA**  
-🌐 Building with **Python, FastAPI, & web apps**  
-📊 Learning **databases** & software engineering  
+<div align="center">
+  <details>
+    <summary><b>✨ See what I'm currently up to</b></summary>
+    <br/>
+    <p>⚡ <b>Studying:</b> C++, OOP, & DSA</p>
+    <p>🌐 <b>Building:</b> Python, FastAPI, & web apps</p>
+    <p>📊 <b>Learning:</b> Databases & software engineering</p>
+  </details>
+</div>
 
 </div>
 
