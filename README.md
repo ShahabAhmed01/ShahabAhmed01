@@ -27,7 +27,7 @@
     <summary><b>✨ See what I'm currently up to</b></summary>
     <br/>
     
-    <img src="assets/status.svg" width="600" alt="Current Status"/>
+<img src="assets/status.svg" width="600" alt="Current Status"/>
   </details>
 </div>
 
