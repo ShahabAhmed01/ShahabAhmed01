@@ -41,10 +41,6 @@
 
 <div align="center">
 
-### `⚙️ whoami`
-
-<br/>
-
 <img src="assets/whoami.svg" width="100%" alt="Who am I"/>
 
 <br/>
