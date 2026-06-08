@@ -45,36 +45,16 @@
 
 <br/>
 
-<table>
-<tr>
-<td>
+```zsh
+❯ whoami
+Shahab Ahmed — CS Student @ UMT Lahore 🇵🇰
 
-```js
-const shahab = {
-    name       : "Shahab Ahmed",
-    title      : "CS Student (4th Semester)",
-    university : "UMT Lahore",
-    origin     : "Sialkot → Lahore, PK 🇵🇰",
-    languages  : ["C++", "Python", "JavaScript", "HTML", "CSS"],
-    frameworks : ["Bootstrap"],
-    courses    : ["Prog. Fundamentals", "OOP", "DSA", "Databases"],
-    exploring  : ["Web Development", "Automation tools"],
-    portfolio  : "shahabahmed01.github.io",
-    highlights : [
-        "zynex-ai — Research automation tool",
-        "AuraTimer — terminal Pomodoro",
-        "Simple-ATM-Simulation — C++ OOP"
-    ],
-    contact    : {
-        linkedin : "linkedin.com/in/shahabahmed01",
-        github   : "github.com/ShahabAhmed01"
-    }
-};
+❯ ls stack/
+c++  python  javascript  fastapi  mysql  html/css
+
+❯ cat focus.txt
+Building web apps & software automation. Studying OOP & Data Structures.
 ```
-
-</td>
-</tr>
-</table>
 
 <br/>
 
@@ -82,12 +62,6 @@ const shahab = {
 <img width="49%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/cards/top-langs.svg" alt="Top languages"/>
 
 <br/><br/>
-
-🔬 Expanding my knowledge in **web development** & **software engineering**
-<br/>
-🛠️ Building efficient solutions with **C++** & **OOP** &nbsp;·&nbsp; 📚 Studying **Data Structures** and **Databases**
-
-<br/>
 
 > *"Quality is not an act, it is a habit."* &nbsp;— **Aristotle**
 
