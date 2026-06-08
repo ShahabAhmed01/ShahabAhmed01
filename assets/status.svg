@@ -1,26 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="170" viewBox="0 0 600 170">
-  <style>
-    .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; fill: #8b949e; font-weight: 500;}
-    .value { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; fill: #e6edf3; font-weight: 600; }
-    .icon { font-size: 18px; }
-    .row { opacity: 1; }
-  </style>
-
-  <g class="row d1" transform="translate(120, 50)">
-    <text x="0" y="0" class="icon">⚡</text>
-    <text x="35" y="-1" class="label">Studying</text>
-    <text x="120" y="-1" class="value">C++, OOP, &amp; DSA</text>
+  <g transform="translate(120, 50)">
+    <text x="0" y="0" font-size="18">⚡</text>
+    <text x="35" y="-1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#8b949e">Studying</text>
+    <text x="120" y="-1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#e6edf3">C++, OOP, &amp; DSA</text>
   </g>
 
-  <g class="row d2" transform="translate(120, 95)">
-    <text x="0" y="0" class="icon">🌐</text>
-    <text x="35" y="-1" class="label">Building</text>
-    <text x="120" y="-1" class="value">Python, FastAPI, &amp; Web Apps</text>
+  <g transform="translate(120, 95)">
+    <text x="0" y="0" font-size="18">🌐</text>
+    <text x="35" y="-1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#8b949e">Building</text>
+    <text x="120" y="-1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#e6edf3">Python, FastAPI, &amp; Web Apps</text>
   </g>
 
-  <g class="row d3" transform="translate(120, 140)">
-    <text x="0" y="0" class="icon">📊</text>
-    <text x="35" y="-1" class="label">Learning</text>
-    <text x="120" y="-1" class="value">Databases &amp; Software Eng.</text>
+  <g transform="translate(120, 140)">
+    <text x="0" y="0" font-size="18">📊</text>
+    <text x="35" y="-1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#8b949e">Learning</text>
+    <text x="120" y="-1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#e6edf3">Databases &amp; Software Eng.</text>
   </g>
 </svg>
