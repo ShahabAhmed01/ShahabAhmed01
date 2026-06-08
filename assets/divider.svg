@@ -1,19 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="20" viewBox="0 0 800 20">
   <defs>
-    <linearGradient id="left" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="fade" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff" stop-opacity="0" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.6" />
-    </linearGradient>
-    <linearGradient id="right" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.6" />
+      <stop offset="30%" stop-color="#58a6ff" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#58a6ff" stop-opacity="0.4" />
       <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- A moving bright spot on the line -->
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#fff" stop-opacity="0" />
     </linearGradient>
   </defs>
   
-  <rect x="0" y="9" width="375" height="1" fill="url(#left)" />
-  <rect x="425" y="9" width="375" height="1" fill="url(#right)" />
-  
-  <circle cx="400" cy="9.5" r="3" fill="#58a6ff" />
-  <circle cx="388" cy="9.5" r="1.5" fill="#58a6ff" opacity="0.6" />
-  <circle cx="412" cy="9.5" r="1.5" fill="#58a6ff" opacity="0.6" />
+  <!-- Static background line -->
+  <rect x="0" y="9.5" width="800" height="1" fill="url(#fade)" />
+
+  <!-- Moving beam (Dynamic animation) -->
+  <rect x="-200" y="9.5" width="200" height="1" fill="url(#beam)">
+    <animate attributeName="x" from="-200" to="800" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Center pulsing dots -->
+  <!-- Left dot -->
+  <circle cx="385" cy="10" r="1.5" fill="#58a6ff">
+    <animate attributeName="r" values="1.5; 2.5; 1.5" dur="1.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.4; 1; 0.4" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Center dot -->
+  <circle cx="400" cy="10" r="3" fill="#58a6ff">
+    <animate attributeName="r" values="3; 4.5; 3" dur="1.5s" begin="0.25s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.8; 1; 0.8" dur="1.5s" begin="0.25s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Right dot -->
+  <circle cx="415" cy="10" r="1.5" fill="#58a6ff">
+    <animate attributeName="r" values="1.5; 2.5; 1.5" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.4; 1; 0.4" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
+  </circle>
 </svg>

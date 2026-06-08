@@ -33,7 +33,9 @@
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="divider">
+<a href="#-whoami">
+  <img src="assets/divider.svg" width="100%" alt="divider">
+</a>
 
 <br/>
 
@@ -93,7 +95,9 @@ const shahab = {
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" alt="divider">
+<a href="#-whoami">
+  <img src="assets/divider.svg" width="100%" alt="divider">
+</a>
 
 <br/>
 
@@ -115,7 +119,9 @@ const shahab = {
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="divider">
+<a href="#-whoami">
+  <img src="assets/divider.svg" width="100%" alt="divider">
+</a>
 
 <br/>
 
@@ -142,7 +148,9 @@ const shahab = {
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" alt="divider">
+<a href="#-whoami">
+  <img src="assets/divider.svg" width="100%" alt="divider">
+</a>
 
 <br/>
 
@@ -166,7 +174,9 @@ const shahab = {
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" alt="divider">
+<a href="#-whoami">
+  <img src="assets/divider.svg" width="100%" alt="divider">
+</a>
 
 <br/>
 
