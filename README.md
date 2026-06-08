@@ -43,12 +43,7 @@
 
 <img src="assets/whoami.svg" width="100%" alt="Who am I"/>
 
-<br/>
 
-<img width="49%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/cards/github-stats.svg" alt="GitHub stats"/>
-<img width="49%" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/cards/top-langs.svg" alt="Top languages"/>
-
-<br/><br/>
 
 > *"Quality is not an act, it is a habit."* &nbsp;— **Aristotle**
 
