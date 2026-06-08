@@ -76,25 +76,34 @@ def fetch_stats() -> dict:
 
 def stats_svg(stats: dict) -> str:
     rows = [
-        ("Total Stars", str(stats["stars"])),
-        ("Public Repos", str(stats["repos"])),
-        ("Followers", str(stats["followers"])),
-        ("Contributions", str(stats["commits"])),
+        ("TOTAL STARS", str(stats["stars"])),
+        ("PUBLIC REPOS", str(stats["repos"])),
+        ("FOLLOWERS", str(stats["followers"])),
+        ("CONTRIBUTIONS", str(stats["commits"])),
     ]
-    y = 58
+    y = 75
     lines = []
     for label, value in rows:
         lines.append(
-            f'<text x="28" y="{y}" fill="#8b949e" font-size="14" font-family="Segoe UI, Arial, sans-serif">{label}</text>'
+            f'<text x="20" y="{y}" fill="#8b949e" font-size="12" font-weight="600" letter-spacing="1.5" font-family="-apple-system, sans-serif">{label}</text>'
         )
         lines.append(
-            f'<text x="460" y="{y}" text-anchor="end" fill="#c9d1d9" font-size="14" font-family="Consolas, monospace">{value}</text>'
+            f'<text x="420" y="{y}" text-anchor="end" fill="#e6edf3" font-size="14" font-weight="700" font-family="Consolas, monospace">{value}</text>'
         )
-        y += 32
+        lines.append(
+            f'<line x1="20" y1="{y + 12}" x2="420" y2="{y + 12}" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 4"/>'
+        )
+        y += 42
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub stats">
-  <rect width="495" height="195" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <text x="24" y="34" fill="#58a6ff" font-size="18" font-weight="700" font-family="Segoe UI, Arial, sans-serif">{USER}'s GitHub Stats</text>
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="450" height="260" viewBox="0 0 450 260" role="img" aria-label="GitHub stats">
+  <defs>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="1" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <text x="20" y="30" fill="#e6edf3" font-size="16" font-weight="800" letter-spacing="2" font-family="-apple-system, sans-serif">GITHUB STATS</text>
+  <rect x="20" y="45" width="150" height="1" fill="url(#fade)"/>
   {''.join(lines)}
 </svg>"""
 
@@ -102,28 +111,41 @@ def stats_svg(stats: dict) -> str:
 def langs_svg(stats: dict) -> str:
     langs = stats["langs"] or [("No data", 1)]
     total = sum(c for _, c in langs) or 1
-    colors = ["#0969da", "#58a6ff", "#79c0ff", "#a5d6ff", "#388bfd"]
-    y = 58
+    colors = ["#58a6ff", "#388bfd", "#1f6feb", "#0969da", "#033d8b"]
+    y = 75
     bars = []
     for i, (lang, count) in enumerate(langs):
         pct = count / total
-        width = max(int(360 * pct), 24)
+        width = max(int(240 * pct), 8)
         color = colors[i % len(colors)]
+        
         bars.append(
-            f'<text x="28" y="{y}" fill="#c9d1d9" font-size="13" font-family="Consolas, monospace">{lang}</text>'
+            f'<text x="20" y="{y}" fill="#8b949e" font-size="12" font-weight="600" letter-spacing="1" font-family="-apple-system, sans-serif">{lang.upper()}</text>'
         )
         bars.append(
-            f'<rect x="120" y="{y - 12}" width="{width}" height="14" rx="4" fill="{color}"/>'
+            f'<text x="420" y="{y}" text-anchor="end" fill="#8b949e" font-size="12" font-family="Consolas, monospace">{int(pct * 100)}%</text>'
         )
         bars.append(
-            f'<text x="490" y="{y}" text-anchor="end" fill="#8b949e" font-size="12" font-family="Consolas, monospace">{int(pct * 100)}%</text>'
+            f'<rect x="130" y="{y - 5}" width="240" height="4" rx="2" fill="#21262d"/>'
         )
-        y += 28
+        bars.append(
+            f'<rect x="130" y="{y - 5}" width="{width}" height="4" rx="2" fill="{color}"/>'
+        )
+        bars.append(
+            f'<circle cx="{130 + width}" cy="{y - 3}" r="3" fill="#ffffff" opacity="0.8"/>'
+        )
+        y += 37
 
-    height = max(160, y + 20)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="{height}" viewBox="0 0 495 {height}" role="img" aria-label="Top languages">
-  <rect width="495" height="{height}" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <text x="24" y="34" fill="#58a6ff" font-size="18" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Most Used Languages</text>
+    height = max(260, y + 20)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="450" height="{height}" viewBox="0 0 450 {height}" role="img" aria-label="Top languages">
+  <defs>
+    <linearGradient id="fade2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="1" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <text x="20" y="30" fill="#e6edf3" font-size="16" font-weight="800" letter-spacing="2" font-family="-apple-system, sans-serif">TOP LANGUAGES</text>
+  <rect x="20" y="45" width="150" height="1" fill="url(#fade2)"/>
   {''.join(bars)}
 </svg>"""
 
