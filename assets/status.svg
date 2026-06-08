@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="96" viewBox="0 0 640 96"><style>@keyframes fade{0%,100%{opacity:1;}50%{opacity:0.55;}}.pulse{animation:fade 2.4s ease-in-out infinite;}.pulse2{animation:fade 2.4s ease-in-out infinite 0.8s;}.pulse3{animation:fade 2.4s ease-in-out infinite 1.6s;}</style><rect width="640" height="96" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/><text x="320" y="30" text-anchor="middle" class="pulse" fill="#58a6ff" font-size="15" font-family="Consolas, monospace">- Currently studying C++, OOP, &amp; DSA</text><text x="320" y="54" text-anchor="middle" class="pulse2" fill="#79c0ff" font-size="15" font-family="Consolas, monospace">- Building with Python, FastAPI, &amp; web apps</text><text x="320" y="78" text-anchor="middle" class="pulse3" fill="#a5d6ff" font-size="15" font-family="Consolas, monospace">- Learning databases &amp; software engineering</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="170" viewBox="0 0 600 170">
+  <style>
+    .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; fill: #8b949e; font-weight: 500;}
+    .value { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; fill: #e6edf3; font-weight: 600; }
+    .icon { font-size: 18px; }
+    @keyframes slideIn {
+      0% { opacity: 0; transform: translateX(-15px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    .row { opacity: 0; animation: slideIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    .d1 { animation-delay: 0.1s; }
+    .d2 { animation-delay: 0.25s; }
+    .d3 { animation-delay: 0.4s; }
+  </style>
+
+  <g class="row d1" transform="translate(120, 50)">
+    <text x="0" y="0" class="icon">⚡</text>
+    <text x="35" y="-1" class="label">Studying</text>
+    <text x="120" y="-1" class="value">C++, OOP, &amp; DSA</text>
+  </g>
+
+  <g class="row d2" transform="translate(120, 95)">
+    <text x="0" y="0" class="icon">🌐</text>
+    <text x="35" y="-1" class="label">Building</text>
+    <text x="120" y="-1" class="value">Python, FastAPI, &amp; Web Apps</text>
+  </g>
+
+  <g class="row d3" transform="translate(120, 140)">
+    <text x="0" y="0" class="icon">📊</text>
+    <text x="35" y="-1" class="label">Learning</text>
+    <text x="120" y="-1" class="value">Databases &amp; Software Eng.</text>
+  </g>
+</svg>

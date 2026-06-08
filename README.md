@@ -25,10 +25,7 @@
 <div align="center">
   <details>
     <summary><b>✨ See what I'm currently up to</b></summary>
-    <br/>
-    <p>⚡ <b>Studying:</b> C++, OOP, & DSA</p>
-    <p>🌐 <b>Building:</b> Python, FastAPI, & web apps</p>
-    <p>📊 <b>Learning:</b> Databases & software engineering</p>
+    <img src="assets/status.svg" width="600" alt="Current Status"/>
   </details>
 </div>
 
