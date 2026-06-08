@@ -59,17 +59,31 @@
 
 <div align="center">
 
-### `⭐ featured projects`
-
 <br/>
 
-| Project | Stack | Description |
-| :--- | :--- | :--- |
-| [**Zynex**](https://github.com/ShahabAhmed01/zynex-ai) | Python · FastAPI | Research automation tool — cited reports, charts, PDF/HTML export |
-| [**Portfolio**](https://shahabahmed01.github.io) | HTML · CSS · JS | Personal site and project showcase |
-| [**AuraTimer**](https://github.com/ShahabAhmed01/AuraTimer) | Python · Rich | Terminal Pomodoro timer with task tracking |
-| [**ATM Simulation**](https://github.com/ShahabAhmed01/Simple-ATM-Simulation) | C++ · OOP | Multi-account ATM with PIN auth and ANSI UI |
-| [**TaskFlow**](https://github.com/ShahabAhmed01/To-Do-List-Application) | C++ | Console to-do list with progress tracking |
+<a href="https://github.com/ShahabAhmed01/zynex-ai"><b>Zynex</b></a><br/>
+<sup><code>Python</code> • <code>FastAPI</code></sup><br/>
+<i>Research automation tool — cited reports, charts, PDF/HTML export</i>
+
+<br/><br/>
+
+<a href="https://shahabahmed01.github.io"><b>Portfolio</b></a><br/>
+<sup><code>HTML</code> • <code>CSS</code> • <code>JS</code></sup><br/>
+<i>Personal site and project showcase</i>
+
+<br/><br/>
+
+<a href="https://github.com/ShahabAhmed01/AuraTimer"><b>AuraTimer</b></a><br/>
+<sup><code>Python</code> • <code>Rich</code></sup><br/>
+<i>Terminal Pomodoro timer with task tracking</i>
+
+<br/><br/>
+
+<a href="https://github.com/ShahabAhmed01/Simple-ATM-Simulation"><b>ATM Simulation</b></a> &nbsp;·&nbsp; <a href="https://github.com/ShahabAhmed01/To-Do-List-Application"><b>TaskFlow</b></a><br/>
+<sup><code>C++</code> • <code>OOP</code></sup><br/>
+<i>Console-based C++ applications</i>
+
+<br/>
 
 <br/>
 
