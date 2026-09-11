@@ -1,37 +1,27 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/name-light.svg" />
-  <img alt="Shahab Ahmed" src="assets/name-dark.svg" width="600" />
-</picture>
+# shahab
 
-**cs student · umt lahore**
+<sub>cs student · umt lahore</sub>
 
-i build small, fast, useful things for the web — mostly in c++ & python
-
-<br />
-
-<a href="https://shahabahmed01.github.io">website</a> ·
-<a href="https://www.linkedin.com/in/shahabahmed01/">linkedin</a> ·
-<a href="https://github.com/ShahabAhmed01">github</a>
+i find a problem, i fix it — mostly with `c++` & `python`.
 
 </div>
 
----
-
-### // now
-
-- building a `fastapi` + `mysql` backend
-- shipping a minimal portfolio site
-- still pretending i understand c++ templates
-
-### // stack
-
-`c++` `python` `fastapi` `javascript` `html` `css` `bootstrap` `mysql` `docker` `git`
-
----
+```
+$ tree ~/shahab
+├── now
+│   ├── fastapi + mysql api
+│   ├── a minimal portfolio
+│   └── still pretending i understand c++ templates
+└── stack
+    └── c++ · python · fastapi · javascript · mysql · docker · git
+```
 
 <div align="center">
-  <sub>typed from lahore, pk · keep it minimal</sub>
+
+[website](https://shahabahmed01.github.io) · [linkedin](https://www.linkedin.com/in/shahabahmed01/) · [instagram](https://instagram.com/shahabcodes)
+
+<sub>typed from lahore, pk · keep it minimal</sub>
+
 </div>
