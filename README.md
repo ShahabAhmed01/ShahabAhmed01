@@ -1,143 +1,37 @@
 <div align="center">
 
-<a href="https://shahabahmed01.github.io">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=58A6FF&background=0D111700&center=true&vCenter=true&width=850&height=100&lines=Shahab+Ahmed;CS+Student+@+UMT+Lahore;C%2B%2B,+Python,+&+Web+Developer" />
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=0969DA&background=FFFFFF00&center=true&vCenter=true&width=850&height=100&lines=Shahab+Ahmed;CS+Student+@+UMT+Lahore;C%2B%2B,+Python,+&+Web+Developer" />
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=58A6FF&background=0D111700&center=true&vCenter=true&width=850&height=100&lines=Shahab+Ahmed;CS+Student+@+UMT+Lahore;C%2B%2B,+Python,+&+Web+Developer" alt="Typing SVG" />
-  </picture>
-</a>
-
-<p align="center">
-  <a href="https://shahabahmed01.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-Website-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117" alt="Portfolio">
-  </a>
-  <a href="https://github.com/ShahabAhmed01">
-    <img src="https://img.shields.io/badge/Student-UMT_Lahore-0969DA?style=for-the-badge&logo=graduated&logoColor=white&labelColor=0D1117" alt="Student">
-  </a>
-  <a href="https://github.com/ShahabAhmed01">
-    <img src="https://komarev.com/ghpvc/?username=ShahabAhmed01&label=Views&color=58A6FF&labelColor=0D1117&style=for-the-badge" alt="Profile views">
-  </a>
-</p>
-
-<br/>
-
-<div align="center">
-  <details>
-    <summary><b>✨ See what I'm currently up to</b></summary>
-    <br/>
-    
-<img src="assets/status.svg" width="600" height="170" alt="Current Status"/>
-  </details>
-</div>
-
-</div>
-
-<a href="#-whoami">
-  <img src="assets/divider.svg" width="100%" alt="divider">
-</a>
-
-<br/>
-
-<div align="center">
-
-<img src="assets/whoami.svg" width="100%" alt="Who am I"/>
-
-
-
-> *"Quality is not an act, it is a habit."* &nbsp;— **Aristotle**
-
-</div>
-
-<br/>
-
-<a href="#-whoami">
-  <img src="assets/divider.svg" width="100%" alt="divider">
-</a>
-
-<br/>
-
-
-
-<br/>
-
-<div align="center">
-
-### `🧰 tech stack`
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=cpp,python,html,css,js,bootstrap,mysql,git,vscode,github,fastapi,docker&theme=dark" alt="Tech Stack"/>
-
-<br/><br/>
-
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-1e3a5f?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-</div>
-
-<br/>
-
-<a href="#-whoami">
-  <img src="assets/divider.svg" width="100%" alt="divider">
-</a>
-
-<br/>
-
-<div align="center">
-
-### `📈 activity & contributions`
-
-<br/>
-
-### `🐍 contribution snake`
-
-<br/>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/name-light.svg" />
+  <img alt="Shahab Ahmed" src="assets/name-dark.svg" width="600" />
 </picture>
 
-</div>
+**cs student · umt lahore**
 
-<br/>
+i build small, fast, useful things for the web — mostly in c++ & python
 
-<a href="#-whoami">
-  <img src="assets/divider.svg" width="100%" alt="divider">
-</a>
+<br />
 
-<br/>
-
-<div align="center">
-
-### `🤝 connect`
-
-<br/>
-
-<a href="https://github.com/ShahabAhmed01">
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="GitHub"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/shahabahmed01/">
-  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0969da" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="https://shahabahmed01.github.io">
-  <img src="https://img.shields.io/badge/Website-Portfolio-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
-</a>
+<a href="https://shahabahmed01.github.io">website</a> ·
+<a href="https://www.linkedin.com/in/shahabahmed01/">linkedin</a> ·
+<a href="https://github.com/ShahabAhmed01">github</a>
 
 </div>
 
-<br/>
+---
+
+### // now
+
+- building a `fastapi` + `mysql` backend
+- shipping a minimal portfolio site
+- still pretending i understand c++ templates
+
+### // stack
+
+`c++` `python` `fastapi` `javascript` `html` `css` `bootstrap` `mysql` `docker` `git`
+
+---
 
 <div align="center">
-  <sub>Thanks for visiting — stats refresh daily via GitHub Actions</sub>
+  <sub>typed from lahore, pk · keep it minimal</sub>
 </div>
