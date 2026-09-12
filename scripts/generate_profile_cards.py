@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Generate profile stat SVG cards from the GitHub API (no third-party image hosts)."""
+"""Generate self-contained, theme-safe stat SVGs from the GitHub API.
+
+No third-party image hosts, no fixed dark-only palette. Each card draws its
+own rounded background + border so it reads correctly on both light and dark
+profiles. The single accent (amber) is shared with the hero wordmark.
+"""
 
 from __future__ import annotations
 
@@ -11,15 +16,36 @@ from collections import Counter
 from pathlib import Path
 
 USER = os.environ.get("GITHUB_USER", "ShahabAhmed01")
-TOKEN = os.environ["GITHUB_TOKEN"]
 OUT = Path(os.environ.get("OUTPUT_DIR", "assets/cards"))
+
+# single accent used across the whole profile
+ACCENT = "#E3B341"
+BG = "#0d1117"
+BORDER = "#21262d"
+TITLE = "#e6edf3"
+LABEL = "#8b949e"
+VALUE = "#f0f6fc"
+TRACK = "#161b22"
+FONT_SANS = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+FONT_MONO = "ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace"
+
+W = 440
+PAD = 26
+RIGHT = W - PAD
+
+
+def _token() -> str:
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        raise RuntimeError("GITHUB_TOKEN is required")
+    return token
 
 
 def api(url: str) -> dict | list:
     req = urllib.request.Request(
         url,
         headers={
-            "Authorization": f"Bearer {TOKEN}",
+            "Authorization": f"Bearer {_token()}",
             "Accept": "application/vnd.github+json",
             "User-Agent": "profile-stats-generator",
         },
@@ -34,7 +60,7 @@ def graphql(query: str) -> dict:
         "https://api.github.com/graphql",
         data=payload,
         headers={
-            "Authorization": f"Bearer {TOKEN}",
+            "Authorization": f"Bearer {_token()}",
             "Content-Type": "application/json",
             "User-Agent": "profile-stats-generator",
         },
@@ -74,6 +100,14 @@ def fetch_stats() -> dict:
     }
 
 
+def _card_header(title: str) -> str:
+    return (
+        f'<rect x="{PAD}" y="22" width="4" height="16" rx="2" fill="{ACCENT}"/>'
+        f'<text x="{PAD + 14}" y="37" fill="{TITLE}" font-size="13" font-weight="700" '
+        f'letter-spacing="2" font-family="{FONT_SANS}">{title}</text>'
+    )
+
+
 def stats_svg(stats: dict) -> str:
     rows = [
         ("TOTAL STARS", str(stats["stars"])),
@@ -81,29 +115,29 @@ def stats_svg(stats: dict) -> str:
         ("FOLLOWERS", str(stats["followers"])),
         ("CONTRIBUTIONS", str(stats["commits"])),
     ]
-    y = 75
     lines = []
+    y = 72
+    last = y + (len(rows) - 1) * 44
     for label, value in rows:
         lines.append(
-            f'<text x="20" y="{y}" fill="#8b949e" font-size="12" font-weight="600" letter-spacing="1.5" font-family="-apple-system, sans-serif">{label}</text>'
+            f'<text x="{PAD}" y="{y}" fill="{LABEL}" font-size="11" font-weight="600" '
+            f'letter-spacing="1.5" font-family="{FONT_SANS}">{label}</text>'
         )
         lines.append(
-            f'<text x="420" y="{y}" text-anchor="end" fill="#e6edf3" font-size="14" font-weight="700" font-family="Consolas, monospace">{value}</text>'
+            f'<text x="{RIGHT}" y="{y}" text-anchor="end" fill="{VALUE}" font-size="18" '
+            f'font-weight="700" font-family="{FONT_MONO}">{value}</text>'
         )
-        lines.append(
-            f'<line x1="20" y1="{y + 12}" x2="420" y2="{y + 12}" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 4"/>'
-        )
-        y += 42
+        if y < last:
+            lines.append(
+                f'<line x1="{PAD}" y1="{y + 14}" x2="{RIGHT}" y2="{y + 14}" '
+                f'stroke="{BORDER}" stroke-width="1"/>'
+            )
+        y += 44
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="450" height="260" viewBox="0 0 450 260" role="img" aria-label="GitHub stats">
-  <defs>
-    <linearGradient id="fade" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="1" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
-    </linearGradient>
-  </defs>
-  <text x="20" y="30" fill="#e6edf3" font-size="16" font-weight="800" letter-spacing="2" font-family="-apple-system, sans-serif">GITHUB STATS</text>
-  <rect x="20" y="45" width="150" height="1" fill="url(#fade)"/>
+    height = last + 22
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="GitHub stats">
+  <rect x="0" y="0" width="{W}" height="{height}" rx="16" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>
+  {_card_header("GITHUB STATS")}
   {''.join(lines)}
 </svg>"""
 
@@ -111,42 +145,34 @@ def stats_svg(stats: dict) -> str:
 def langs_svg(stats: dict) -> str:
     langs = stats["langs"] or [("No data", 1)]
     total = sum(c for _, c in langs) or 1
-    colors = ["#58a6ff", "#388bfd", "#1f6feb", "#0969da", "#033d8b"]
-    y = 75
-    bars = []
-    for i, (lang, count) in enumerate(langs):
+    bar_x = 150
+    bar_w = RIGHT - bar_x
+    lines = []
+    y = 72
+    for lang, count in langs:
         pct = count / total
-        width = max(int(240 * pct), 8)
-        color = colors[i % len(colors)]
-        
-        bars.append(
-            f'<text x="20" y="{y}" fill="#8b949e" font-size="12" font-weight="600" letter-spacing="1" font-family="-apple-system, sans-serif">{lang.upper()}</text>'
+        width = max(int(bar_w * pct), 6)
+        lines.append(
+            f'<text x="{PAD}" y="{y}" fill="{LABEL}" font-size="11" font-weight="600" '
+            f'letter-spacing="1.2" font-family="{FONT_SANS}">{lang.upper()}</text>'
         )
-        bars.append(
-            f'<text x="420" y="{y}" text-anchor="end" fill="#8b949e" font-size="12" font-family="Consolas, monospace">{int(pct * 100)}%</text>'
+        lines.append(
+            f'<text x="{RIGHT}" y="{y}" text-anchor="end" fill="{LABEL}" font-size="11" '
+            f'font-family="{FONT_MONO}">{round(pct * 100)}%</text>'
         )
-        bars.append(
-            f'<rect x="130" y="{y - 5}" width="240" height="4" rx="2" fill="#21262d"/>'
+        lines.append(
+            f'<rect x="{bar_x}" y="{y - 4}" width="{bar_w}" height="5" rx="2.5" fill="{TRACK}"/>'
         )
-        bars.append(
-            f'<rect x="130" y="{y - 5}" width="{width}" height="4" rx="2" fill="{color}"/>'
+        lines.append(
+            f'<rect x="{bar_x}" y="{y - 4}" width="{width}" height="5" rx="2.5" fill="{ACCENT}"/>'
         )
-        bars.append(
-            f'<circle cx="{130 + width}" cy="{y - 3}" r="3" fill="#ffffff" opacity="0.8"/>'
-        )
-        y += 37
+        y += 38
 
-    height = max(260, y + 20)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="450" height="{height}" viewBox="0 0 450 {height}" role="img" aria-label="Top languages">
-  <defs>
-    <linearGradient id="fade2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="1" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
-    </linearGradient>
-  </defs>
-  <text x="20" y="30" fill="#e6edf3" font-size="16" font-weight="800" letter-spacing="2" font-family="-apple-system, sans-serif">TOP LANGUAGES</text>
-  <rect x="20" y="45" width="150" height="1" fill="url(#fade2)"/>
-  {''.join(bars)}
+    height = y - 18
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="Top languages">
+  <rect x="0" y="0" width="{W}" height="{height}" rx="16" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>
+  {_card_header("TOP LANGUAGES")}
+  {''.join(lines)}
 </svg>"""
 
 
