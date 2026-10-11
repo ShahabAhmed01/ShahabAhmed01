@@ -1,48 +1,52 @@
-<div align="center">
+# Shahab Ahmed
 
-<img alt="shahab" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/name-dark.svg#gh-dark-mode-only">
-<img alt="shahab" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/main/assets/name-light.svg#gh-light-mode-only">
+<p align="center">
+  <img src="assets/images/banner.webp" alt="Banner: wallhaven-5ypy88 landscape, wide crop" width="100%">
+</p>
 
-i find a problem, i fix it — mostly with `c++` & `python`.
+## About
 
-</div>
+**Shahab Ahmed**
 
-```
-$ tree ~/shahab
-├── now
-│   ├── fastapi × mysql api
-│   ├── a minimal portfolio
-│   └── still pretending i understand c++ templates
-└── stack
-    └── c++ · python · fastapi · javascript · mysql · docker · git
-```
+I build practical software. I contribute to open-source projects. I care about useful engineering, clean implementation, and reliability.
 
-<div align="center">
+---
 
-![github stats](assets/cards/github-stats.svg)
+## Focus
 
-![top languages](assets/cards/top-langs.svg)
+I tinker with backend services and CLI tools, exploring Go and Rust when the problem demands it. I'm currently drawn to local-first software, data pipelines, and anything that reduces friction in daily development workflows.
 
-</div>
+---
 
-<details>
-<summary><code>recent activity</code></summary>
+## Contribution
 
-<br>
+<!---
+  Minimalist custom contribution graphic: dark charcoal canvas with thin green
+  vertical and horizontal lines intersecting at centre, small green-outlined
+  circular nodes, and four category labels (Commits, Pull requests, Issues,
+  Code review) positioned around the diagram. Percentages omitted — the graphic
+  is decorative rather than data-driven.
+--><br>
+<p align="center">
+  <img src="assets/contribution.svg" alt="Minimal contribution graphic: four categories arranged around a central cross" width="280">
+</p>
 
-<div align="center">
+---
 
-<img alt="contribution graph" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only">
-<img alt="contribution graph" src="https://raw.githubusercontent.com/ShahabAhmed01/ShahabAhmed01/output/github-contribution-grid-snake.svg#gh-light-mode-only">
+## Selected work
 
-</div>
+| Project | Description |
+|---|---|
+| [zynex-ai](https://github.com/ShahabAhmed01/zynex-ai) | Autonomous AI research agent. Topic-in, cited report with charts and PDF/HTML export. Built with Python, FastAPI, and OpenRouter. |
+| [OutreachKit](https://github.com/ShahabAhmed01/OutreachKit) | Open-source Instagram & Facebook DM automation tool. Local-first, MIT-licensed. Scrape reel commenters, send personalized bulk DMs with daily caps, multi-campaign management, and a modern glass-morphism web dashboard. |
+| [opensource-contributions](https://github.com/ShahabAhmed01/opensource-contributions) | Curated record of open-source contributions: issues, pull requests, validation, and merge status. |
 
-</details>
+---
 
-<div align="center">
+## Contact
 
-[website](https://shahabahmed01.github.io) · [blog](https://shahabcodes.dev) · [linkedin](https://www.linkedin.com/in/shahabahmed01/) · [instagram](https://instagram.com/shahabcodes)
+- [Website](https://shahabcodes.dev)
+- [LinkedIn](https://www.linkedin.com/in/shahabahmed01)
+- [GitHub](https://github.com/ShahabAhmed01)
 
-<sub>typed from lahore, pk — kept minimal on purpose</sub>
-
-</div>
+<sub>typed from Lahore, pk — kept minimal on purpose</sub>

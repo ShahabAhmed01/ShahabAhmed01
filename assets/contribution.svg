@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="446" height="312" viewBox="0 0 446 312" role="img" aria-label="GitHub contribution categories">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .canvas { fill: #0d0d0d; }
+      .green { fill: #4c1; fill-opacity: 0.3; }
+      .green-stroke { stroke: #4c1; stroke-width: 2; stroke-opacity: 0.8; }
+      .label { fill: #8b949e; font-size: 10; font-family: system-ui, sans-serif; }
+      .label-bold { fill: #e6edf3; font-size: 10; font-weight: 600; font-family: system-ui, sans-serif; }
+      .val { fill: #4c1; font-size: 9; font-family: ui-monospace, monospace; }
+    ]]></style>
+  </defs>
+  <rect class="canvas" x="0" y="0" width="446" height="312" rx="4"/>
+  
+  <!-- Vertical green line -->
+  <line x="223" y="40" x2="223" y2="272" class="green-stroke"/>
+  
+  <!-- Horizontal green line -->
+  <line x="60" y="156" x2="392" y2="156" class="green-stroke"/>
+  
+  <!-- Circular nodes -->
+  <circle cx="180" cy="156" r="8" class="green-stroke"/>
+  <circle cx="312" cy="156" r="8" class="green-stroke"/>
+  <circle cx="223" cy="100" r="6" class="green-stroke"/>
+  <circle cx="223" cy="212" r="6" class="green-stroke"/>
+  
+  <!-- Connected green shapes -->
+  <path d="M180 156 L223 100 L312 156" class="green-stroke"/>
+  <path d="M223 212 L223 272" class="green-stroke"/>
+  
+  <!-- Category labels around the diagram -->
+  <!-- Top: Commits -->
+  <text x="223" y="80" text-anchor="middle" class="label">Commits</text>
+  
+  <!-- Right: Pull requests -->
+  <text x="392" y="156" text-anchor="start" class="label">Pull requests</text>
+  
+  <!-- Bottom: Issues -->
+  <text x="223" y="232" text-anchor="middle" class="label">Issues</text>
+  
+  <!-- Left: Code review -->
+  <text x="60" y="156" text-anchor="end" class="label">Code review</text>
+  
+  <!-- Subtle connected shapes -->
+  <path d="M60 156 L180 156 M312 156 M392 156" class="green-stroke" stroke-opacity="0.4"/>
+</svg>
